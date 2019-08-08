@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G84" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Repository" representedClassName=".Repository" syncable="YES">
+        <attribute name="htmlURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ownerLogin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repoDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="starsCount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Repository" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
