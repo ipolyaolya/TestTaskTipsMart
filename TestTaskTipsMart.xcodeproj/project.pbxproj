@@ -28,7 +28,7 @@
 		20D7E49407FC99B502B5A451 /* Pods_TestTaskTipsMart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaskTipsMart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFDE73739F3D619FB24BA2F /* Pods-TestTaskTipsMart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskTipsMart.debug.xcconfig"; path = "Target Support Files/Pods-TestTaskTipsMart/Pods-TestTaskTipsMart.debug.xcconfig"; sourceTree = "<group>"; };
 		9D0BF6C022FC08FD004C7C32 /* TestTaskTipsMart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestTaskTipsMart.xcdatamodel; sourceTree = "<group>"; };
-		9D26789122FC1D0D00B9A920 /* Сonstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Сonstants.swift"; path = "Extention/Сonstants.swift"; sourceTree = "<group>"; };
+		9D26789122FC1D0D00B9A920 /* Сonstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Сonstants.swift"; sourceTree = "<group>"; };
 		9D6A816522FBEACF000003AB /* TestTaskTipsMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskTipsMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6A816822FBEACF000003AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D6A816A22FBEACF000003AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D26789322FC2B6000B9A920 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9D26789122FC1D0D00B9A920 /* Сonstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		9D6A815C22FBEACF000003AB = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +102,7 @@
 		9D6A817B22FBED5E000003AB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9D26789122FC1D0D00B9A920 /* Сonstants.swift */,
+				9D26789322FC2B6000B9A920 /* Constants */,
 				9D6A817C22FBFD4F000003AB /* Cells */,
 				9D6A817F22FBFD8E000003AB /* Extention */,
 				9D6A818622FBFF10000003AB /* Network */,
